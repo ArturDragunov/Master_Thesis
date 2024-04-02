@@ -29,14 +29,11 @@ The code also includes a section (commented out by default) for creating a graph
 Usage
 To use this code, you will need to install the required Python libraries. You can do this with pip:
 
-bash
-Copy code
 pip install pandas numpy openpyxl requests
 Then, run the main.py script:
 
-bash
-Copy code
 python main.py
+
 Note
 Please make sure that your API_keys.xlsx and elements.xlsx files are in the correct format and location.
 
