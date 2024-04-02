@@ -1,7 +1,7 @@
 # masterthesis
-# Recent Determinants of Real Estate Prices in USA, UK and France
+# RECENT REAL ESTATE PRICE DETERMINANTS IN USA, UK, AND FRANCE
 
-This repository is a part of my master's thesis named Recent Determinants of Real Estate Prices in the USA, UK, and France. It contains the Python code used to gather and process the data required for the study.
+This repository is a part of my master's thesis named RECENT REAL ESTATE PRICE DETERMINANTS IN USA, UK, AND FRANCE. It contains the Python code used to gather and process the data required for the study.
 
 Structure
 The repository consists of two separate python files:
