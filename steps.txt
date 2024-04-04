@@ -1,19 +1,11 @@
 France 
-For France I used 50 cities with the highest population number. I found these cities from the following resource https://worldpopulationreview.com/countries/cities/france
-Next step, I found postal indeces per city using this resource: http://www.geonames.org/postalcode-search.html?q=paris&country=FR
-Now I can generate 50 observations per city. API link: https://rapidapi.com/apidojo/api/seloger/
-For Seloger I need 50 calls per week. Thus, 1 account only is fine. 
+For France I used 50 cities with the highest population number. I found these cities from the following resource https://worldpopulationreview.com/countries/cities/france Next step, I found postal indexes per city using this resource: http://www.geonames.org/postalcode-search.html?q=paris&country=FR Now I can generate 50 observations per city. API link: https://rapidapi.com/apidojo/api/seloger/ For Seloger I need 50 calls per week. Thus, one API account is enough to fit all the quotas.
 
 UK
-For UK I first chose 50 biggest cities using a following source of data: https://worldpopulationreview.com/countries/cities/united-kingdom
-Next step, I used API calls from Zoopla API and got main neighbourhoods per each city. There are 388 neighbourhoods in total. 
-Finally, I use these data for an API call per each neighbourhood. 40 observations per call. For UK I need 1 account per 1 week. API link: https://rapidapi.com/apidojo/api/zoopla/
-For Zoopla I need 388 calls per week, thus 5 accounts.
+For the UK, I first chose the 50 biggest cities using the following source of data: https://worldpopulationreview.com/countries/cities/united-kingdom Next step, I used API calls from Zoopla API and got the main neighbourhoods per each city. There are 388 neighborhoods in total. Finally, I used these data for an API call per neighborhood, getting 40 observations per call. For the UK I need 1 API account per 1 week. API link: https://rapidapi.com/apidojo/api/zoopla/ For Zoopla I need 388 calls per week, thus 5 accounts to have enough quotas.
 
 USA
-For the US I use states and generate 400 observations per state. For Texas I call separately 7 districts.
-The reason for that is due to the fact that this state can't be called directly using API for some reason. In total I do 52-5+7=55 calls per week and get around 20 000 observations. 
-States missing are Wyoming, Montana, North Dakota. API link: https://rapidapi.com/apidojo/api/unofficial-redfin/
+For the US I used states and generated 400 observations per state. For Texas, I called separately seven districts. The reason for that is that this state couldn't be called directly using API for some reason. In total I was doing 52-5+7=55 calls per week and got around 20 000 observations. The states missing are Wyoming, Montana, and North Dakota.
 
 
 
